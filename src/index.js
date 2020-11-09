@@ -1,1 +1,2 @@
-console.log("Как интересно!")
+import './css/style.css';
+import './js/script';

@@ -1,13 +1,8 @@
 'use strict';
 
-$('.radio-item').on('click', function() {
-  $(this).addClass('check').siblings().removeClass('check');
-})
-
-
-
-   
-
+// $('.radio-item').on('click', function() {
+//   $(this).addClass('check').siblings().removeClass('check');
+// })
 
 const buttons = Array.from(document.querySelectorAll('button'));
 const consent = document.querySelector('.consent');
